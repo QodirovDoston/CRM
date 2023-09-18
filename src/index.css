@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.scrol::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.selectOpt {
+  background-image: url(./assets/downVector.svg);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-x: 95%;
+  background-position-y: 50%;
+  appearance: none;
+}
+
+.dateInp {
+  background-image: url(./assets/calendar.svg);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-x: 4%;
+  background-position-y: 50%;
+  appearance: none;
+}
+
+::selection {
+  background-color: #009f8f;
+  color: #f48221;
+}
+
+option:checked {
+  background: #f48221;
+  color: white;
+}
+
+.style-13 {
+  overflow-y: scroll;
+  overflow-x: unset;
+  background-color: #fff;
+}
+
+.style-13::-webkit-scrollbar-track {
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.style-13::-webkit-scrollbar {
+  width: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.style-13::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: #F48221;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.style-13::-webkit-scrollbar-thumb:hover {
+  background: #db7016;
+}
+
+.style-14 {
+  overflow-y: scroll;
+  overflow-x: unset;
+  background-color: #fff;
+}
+
+.style-14::-webkit-scrollbar-track {
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.style-14::-webkit-scrollbar {
+  width: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.style-14::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: #9B9B9B;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.style-14::-webkit-scrollbar-thumb:hover {
+  background: #8a8989;
+}
+
+.OpenCloseInp {
+  background-image: url(./assets/date.svg);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-x: 4%;
+  background-position-y: 50%;
+  appearance: none;
+}
